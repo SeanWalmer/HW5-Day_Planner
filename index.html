@@ -33,10 +33,13 @@
     <div class="container">
         <hr class="m-1">
 
+
+        <!-- I removed the sm from all my column classes to force extra small. 
+        the rational for this is with sm or larger it started stacking elements at a smaller viewscale and since you can always see the hour reguarless of scale it was better off not stacking in my opinion. -->
         <!-- 9:00 -->
         <div class="row m-0" id="nine">
-            <p class="col-sm-1 mb-0 bg-primary" value="9">9:00</p>
-            <input type="event" class="col-sm-9 mr-1 form bg-primary" id="event1" value="">
+            <p class="col-1 mb-0" value="9">9:00</p>
+            <input type="event" class="col-9 mr-1 form" id="event1" value="">
             <button type="submit" class="btn btn-primary mb-2 saveBtn" id="button1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg></button>
         </div>
 
@@ -44,8 +47,8 @@
 
         <!-- 10:00 -->
         <div class="row m-0" id="ten">
-            <p class="col-md-1 mb-0" value="10">10:00</p>
-            <input type="event" class="col-md-9 mr-1 form" id="event2" value="">
+            <p class="col-1 mb-0" value="10">10:00</p>
+            <input type="event" class="col-9 mr-1 form" id="event2" value="">
             <button type="submit" class="btn btn-primary mb-2 saveBtn" id="button2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg></button>
         </div>
 
@@ -53,8 +56,8 @@
 
         <!-- 11:00 -->
         <div class="row m-0" id="eleven">
-            <p class="col-md-1 mb-0" value="11">11:00</p>
-            <input type="event" class="col-md-9 mr-1 form" id="event3" value="">
+            <p class="col-1 mb-0" value="11">11:00</p>
+            <input type="event" class="col-9 mr-1 form" id="event3" value="">
             <button type="submit" class="btn btn-primary mb-2 saveBtn" id="button3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg></button>
         </div>
 
@@ -62,8 +65,8 @@
 
         <!-- 12:00 -->
         <div class="row m-0" id="twelve">
-            <p class="col-md-1 mb-0" value="12">12:00</p>
-            <input type="event" class="col-md-9 mr-1 form" id="event4" value="">
+            <p class="col-1 mb-0" value="12">12:00</p>
+            <input type="event" class="col-9 mr-1 form" id="event4" value="">
             <button type="submit" class="btn btn-primary mb-2 saveBtn" id="button4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg></button>
         </div>
 
@@ -71,8 +74,8 @@
 
         <!-- 1:00 -->
         <div class="row m-0" id="one">
-            <p class="col-md-1 mb-0" value="13">1:00</p>
-            <input type="event" class="col-md-9 mr-1 form" id="event5" value="">
+            <p class="col-1 mb-0" value="13">1:00</p>
+            <input type="event" class="col-9 mr-1 form" id="event5" value="">
             <button type="submit" class="btn btn-primary mb-2 saveBtn" id="button5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg></button>
         </div>
 
@@ -80,8 +83,8 @@
 
         <!-- 2:00 -->
         <div class="row m-0" id="two">
-            <p class="col-md-1 mb-0" value="14">2:00</p>
-            <input type="event" class="col-md-9 mr-1 form" id="event6" value="">
+            <p class="col-1 mb-0" value="14">2:00</p>
+            <input type="event" class="col-9 mr-1 form" id="event6" value="">
             <button type="submit" class="btn btn-primary mb-2 saveBtn" id="button6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg></button>
         </div>
 
@@ -89,8 +92,8 @@
 
         <!-- 3:00 -->
         <div class="row m-0" id="three">
-            <p class="col-md-1 mb-0" value="15">3:00</p>
-            <input type="event" class="col-md-9 mr-1 form" id="event7" value="">
+            <p class="col-1 mb-0" value="15">3:00</p>
+            <input type="event" class="col-9 mr-1 form" id="event7" value="">
             <button type="submit" class="btn btn-primary mb-2 saveBtn" id="button7"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg></button>
         </div>
 
@@ -98,8 +101,8 @@
 
         <!-- 4:00 -->
         <div class="row m-0" id="four">
-            <p class="col-md-1 mb-0" value="16">4:00</p>
-            <input type="event" class="col-md-9 mr-1 form" id="event8" value="">
+            <p class="col-1 mb-0" value="16">4:00</p>
+            <input type="event" class="col-9 mr-1 form" id="event8" value="">
             <button type="submit" class="btn btn-primary mb-2 saveBtn" id="button8"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg></button>
         </div>
 
@@ -107,8 +110,8 @@
 
         <!-- 5:00 -->
         <div class="row m-0" id="five">
-            <p class="col-md-1 mb-0" value="17">5:00</p>
-            <input type="event" class="col-md-9 mr-1 form" id="event9" value="">
+            <p class="col-1 mb-0" value="17">5:00</p>
+            <input type="event" class="col-9 mr-1 form" id="event9" value="">
             <button type="submit" class="btn btn-primary mb-2 saveBtn" id="button9"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg></button>
         </div>
 
